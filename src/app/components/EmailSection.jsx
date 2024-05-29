@@ -8,6 +8,7 @@ import Image from "next/image";
 const EmailSection = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 
+  // send message using resend mail service platform
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {

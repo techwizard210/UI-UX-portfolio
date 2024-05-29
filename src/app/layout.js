@@ -1,5 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+
+// import custom style in the top layout so every page can use this style
 import '../../assets/style.css';
 
 const inter = Inter({ subsets: ['latin'] })
