@@ -1,0 +1,17 @@
+.button-dark-light-green-gradient {
+    background: linear-gradient(90deg, rgba(0,100,0,1) 0%, rgba(144,238,144,1) 100%);
+    transition: background 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  .button-dark-light-green-gradient:hover {
+    background: linear-gradient(90deg, rgba(0,100,0,1) 100%, rgba(144,238,144,1) 0%);
+  }
+
+  .text-dark-light-green-gradient {
+    background: linear-gradient(90deg, rgba(0,100,0,1) 0%, rgba(144,238,144,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  }
